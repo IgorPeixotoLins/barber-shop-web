@@ -141,3 +141,82 @@ section.sobre p.horario-funcionamento {
   color: var(--cor-texto);
   margin-top: var(--margem-topo-textos);
 }
+
+main.servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-fundo-branco);
+  padding: 50px 0;
+  height: 742px;
+}
+
+main h2.titulo-servicos {
+  font-weight: 700;
+  font-size: var(--fonte-h2);
+  color: black;
+  margin-bottom: var(--margem-topo-textos);
+}
+
+main p.texto-servicos {
+  font-weight: 400;
+  font-size: var(--fonte-texto-normal);
+  color: black;
+  max-width: 45%;
+  text-align: center;
+  margin-bottom: var(--margem-topo-textos);
+}
+
+main div.container-servicos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--margem-topo-textos);
+  gap: 24px;
+  margin: 0 5%;
+}
+
+main div.container-servicos .servico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 356px;
+  height: 300px;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main div.container-servicos .servico .imagem-servico {
+  max-width: 356px;
+  max-height: 318px;
+  border-radius: 4px 4px 0 0;
+}
+
+main div.container-servicos .servico .descricao-servico {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 356px;
+  height: 55px;
+  padding: 7px;
+}
+
+main div.container-servicos .servico .descricao-servico h3.titulo-servico {
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+}
+
+main div.container-servicos .servico .descricao-servico .btn-preco {
+  font-weight: 400;
+  font-size: var(--fonte-texto-normal);
+  color: #FFFFFF;
+  padding: 5px 12px;
+  border-radius: 10px;
+  background-color: #0D121E;
+  border: none;
+}

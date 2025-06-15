@@ -4,9 +4,11 @@
   
     /* Cores */
     --cor-fundo-header: #000000;
-    --cor-texto: #ffffff;
-    --cor-botao: #f0b35b;
-    --cor-fundo-sobre: #0d121e;
+    --cor-texto: #FFFFFF;
+    --cor-botao: #F0B35B;
+    --cor-fundo-sobre: #0D121E;
+    --cor-fundo-branco: #FAFAFA;
+    --cor-fundo-equipe: #080B16;
   
     /* Tamanhos */
     --largura-botao: 211px;
@@ -24,4 +26,4 @@
   
     /* Layouts */
     --background-image-home: url('../images/home-background.jpg');
-  }
+}

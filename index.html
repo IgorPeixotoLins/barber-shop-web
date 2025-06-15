@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barber Shop Web</title>
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <link rel="stylesheet" href="./src/css/variables.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barber Shop Web</title>
+  <link rel="stylesheet" href="./src/css/reset.css" />
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link rel="stylesheet" href="./src/css/variables.css">
 
-  <body>
-    <header class="cabecalho">
-      <div>
-        <img class="logo" src="./src/images/logo.png" alt="Logo Barber" />
-        <nav class="contacts">
-          <ul class="menu">
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">QuemSomos</a></li>
-            <li><a href="">Contatos</a></li>
-          </ul>
-        </nav>
-      </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div>
+      <img class="logo" src="./src/images/logo.png" alt="Logo Barber" />
+      <nav class="contacts">
+        <ul class="menu">
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Serviços</a></li>
+          <li><a href="">QuemSomos</a></li>
+          <li><a href="">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="btn-agendar">Agendar Horário</button>
+  </header>
+  <section class="home-page">
+    <div class="container-informacoes">
+      <h1 class="titulo-home">
+        ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.
+      </h1>
+      <p class="horario-funcionamento">
+        Horário de funcionamento das 08:00 às 19:00
+      </p>
       <button class="btn-agendar">Agendar Horário</button>
-    </header>
-    <section class="home-page">
-      <div class="container-informacoes">
-        <h1 class="titulo-home">
-          ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.
-        </h1>
-        <p class="horario-funcionamento">
-          Horário de funcionamento das 08:00 às 19:00
-        </p>
-        <button class="btn-agendar">Agendar Horário</button>
+    </div>
+  </section>
+  <section class="sobre">
+    <div class="images-sobre">
+      <img src="./src/images/Rectangle 12.png" alt="Rapaz cortando cabelo" class="imagem-corte" />
+      <img src="./src/images/Rectangle 10.png" alt="imagem do rapaz secando o cabelo" class="imagem-secador" />
+      <img src="./src/images/Rectangle 11.png" alt="imagem de uma maquina de cortar cabelo" class="imagem-maquina" />
+    </div>
+    <div class="description">
+      <h2 class="titulo-sobre">Sobre</h2>
+      <p class="texto-sobre">
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it
+        to make a type specimen book.
+      </p>
+      <p class="texto-sobre">
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it
+        to make a type specimen book.
+      </p>
+      <p class="horario-funcionamento">
+        Horário de funcionamento das 08:08 às 19:00
+      </p>
+    </div>
+  </section>
+  <main class="servicos">
+    <h2 class="titulo-servicos">Serviços</h2>
+    <p class="texto-servicos">Lorem ipsum dolor sit amet consectetur. Cras ac senectus venenatis sem pellentesque. Quis
+      libero sed volutpat dolor dictumst non dui egestas ipsum. Ut massa turpis proin sed.</p>
+    <div class="container-servicos">
+      <div class="servico">
+        <img src="./src/images/corte-cabelo.jpg" alt="Corte de cabelo" class="imagem-servico" />
+        <div class="descricao-servico">
+          <h3 class="titulo-servico">Corte de cabelo</h3>
+          <button class="btn-preco">R$ 55,00</button>
+        </div>
       </div>
-    </section>
-    <section class="sobre">
-      <div class="images-sobre">
-        <img
-          src="./src/images/Rectangle 12.png"
-          alt="Rapaz cortando cabelo"
-          class="imagem-corte"
-        />
-        <img
-          src="./src/images/Rectangle 10.png"
-          alt="imagem do rapaz secando o cabelo"
-          class="imagem-secador"
-        />
-        <img
-          src="./src/images/Rectangle 11.png"
-          alt="imagem de uma maquina de cortar cabelo"
-          class="imagem-maquina"
-        />
+      <div class="servico">
+        <img src="./src/images/corte-cabelo2.jpg" alt="Corte de cabelo" class="imagem-servico" />
+        <div class="descricao-servico">
+          <h3 class="titulo-servico">Corte de cabelo</h3>
+          <button class="btn-preco">R$ 70,00</button>
+        </div>
       </div>
-      <div class="description">
-        <h2 class="titulo-sobre">Sobre</h2>
-        <p class="texto-sobre">
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book.
-        </p>
-        <p class="texto-sobre">
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book.
-        </p>
-        <p class="horario-funcionamento">
-          Horário de funcionamento das 08:08 às 19:00
-        </p>
+      <div class="servico">
+        <img src="./src/images/corte-cabelo3.jpg" alt="Corte de cabelo" class="imagem-servico" />
+        <div class="descricao-servico">          
+          <h3 class="titulo-servico">Corte de cabelo</h3>
+          <button class="btn-preco">R$ 80,00</button>
+        </div>
       </div>
+    </div>
     </section>
     <script src="./src/js/index.js"></script>
-  </body>
+</body>
+
 </html>
