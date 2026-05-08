@@ -2,8 +2,6 @@ BARBER SHOP WEB
 
 Plataforma de agendamento inteligente para barbearias modernas
 
-07 de maio de 2026
-
 ---
 
 # ✂️ Barber Shop Web
