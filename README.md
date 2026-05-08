@@ -148,7 +148,3 @@ Contribuições são muito bem-vindas! Para colaborar:
 Este projeto está sob a licença definida pelo proprietário do repositório. Consulte o arquivo `LICENSE` para mais detalhes sobre permissões de uso e distribuição.
 
 ---
-
-Local e data: São Paulo, 07 de maio de 2026
-
-*Documento elaborado em 07 de maio de 2026. As informações contidas são de responsabilidade do solicitante.*
